@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Instagram|Messages</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <div id="chat-screen" class="hidden">
+    <div id="header">
+      <span id="current-user"></span>
+      <button onclick="logout()">Logout</button>
+    </div>
+    <div id="user-list">
+      <div class="chat_search"><input type="text" placeholder="search"><img src="/icons/search-svgrepo-com.svg" alt=""
+          height="25"></div>
+    </div>
+    <div id="chat-window">
+      <div id="chat-header"></div>
+      <div id="messages"></div>
+      <input id="message-input" placeholder="Type a message..." />
+      <button onclick="sendMessage()">Send</button>
+    </div>
+  </div>
+
+  <nav class="nav_bar">
+    <img src="/icons/next-svgrepo-com.svg" class="arrow invisible_icons " width="25" alt="">
+    <a href="Home.html" class="invisible_icons"> <img src="/icons/instagram-svgrepo-com.svg" alt="" width="30"><span
+        class="nav_text">Instagram</span></a>
+    <a href="Home.html"><img src="/icons/home-svgrepo-com (1).svg" alt="" width="25"><span class="nav_text">Home</span></a>
+    <a href="explore.html"> <img src="/icons/search-svgrepo-com.svg" alt="" width="35"><span
+        class="nav_text">Search</span></a>
+    <div> <img src="/icons/add-square-svgrepo-com.svg" alt="" width="25"><span class="nav_text">add Post</span>
+    </div>
+    <div><img src="/icons/film-play-svgrepo-com.svg" alt="" width="35"><span class="nav_text">Reels</span></div>
+    <a href="#" class="nav_heart_send invisible_icons"> <img src="/icons/heart.svg" alt="" width="30"><span
+        class="nav_text">notification</span>
+    </a> <a href="messages.html" class="nav_heart_send invisible_icons"> <img src="/icons/send-filled.svg" alt=""
+        width="30"><span class="nav_text">Messages</span>
+    </a>
+    <a href="Profile.html"> <img src="/pp/pp (1).jpg" class="nav_profile_img" alt="" width="25"><span
+        class="nav_text">Profile</span></a>
+  </nav>
+
+  <script src="script3.js"></script>
+</body>
+
+</html>

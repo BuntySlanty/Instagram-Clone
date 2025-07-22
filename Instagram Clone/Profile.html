@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram|Explore</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="pp_cover">
+
+        <section class="Profile_page_section  nav_right">
+
+            <div class="pp_top">
+                <div class="pp_top_un">
+                    <h1 id="pp_Uname">UserName</h1>
+                </div>
+                <div class="pp_top_right">
+                    <a href="#"><img src="/icons/Brand-Threads--Streamline-Mynaui (1).svg" alt="" width="27"></a>
+                    <img src="/icons/add-square-svgrepo-com.svg" alt="" width="25">
+                    <img src="/icons/list.svg" class="hamburger_profile" width="29">
+                    <div class="menu" id="pp_menu"> <button onclick="logout()">Logout</button></div>
+                </div>
+            </div>
+            <div class="pp_middle">
+
+                <div class="story-wrapper">
+                    <div class="story-border">
+                        <div class="story-inner">
+                            <img src="/pp/pp (1).jpg" alt="Your Story" class="story-img">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="ppfs_right">
+                    <h2 id="pp_Name">Name</h2>
+                    <div class="pp_counters">
+                        <div class="pp_counter ">
+                            <h2 id="no.posts">20</h2>
+                            <p>posts</p>
+                        </div>
+                        <div class="pp_counter ">
+                            <h2 id="no.of_followers">20k</h2>
+                            <p>followers</p>
+                        </div>
+                        <div class="pp_counter ">
+                            <h2 id="no.of_following">20k</h2>
+                            <p>following</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pp_bio">
+                <div class="pp_bio_cover">
+
+                    <span>Bio.</span>
+                    <span>Lorem ipsum dolor sit amet.</span>
+                    <p id="comment">
+                        <span id="short-text">Lorem ipsum dolor sit amet consectetur adipisicing elit </span>
+                        <span id="full-text" style="display: none;">
+                            .Eos magni cumque reiciendis laboriosam fuga consequuntur hic quia id omnis aliquam.
+                        </span>
+                        <span>Lorem ipsum dolor sit..</span>
+                        <a href="#short-text" id="toggle-btn" onclick="toggleText()">more...</a>
+                    </p>
+                </div>
+            </div>
+            <div class="pp_edit_btns">
+                <button class="pp_edit_btn pp_edit_profile_btn pp_bts">Edit profile</button>
+                <button class="pp_edit_btn pp_edit_profile_btn pp_bts">share profile</button>
+                <button class="add_profile_btn pp_bts"><img src="/icons/person-plus.svg" alt="" width="20"></button>
+            </div>
+            <section class="pp_post_section">
+                <div class="ppps_top">
+                    <img src="/icons/grid-3x3-gap.svg" class="pp_post_icons grid_icon" alt="" width="25">
+                    <img src="/icons/people-svgrepo-com.svg" class="pp_post_icons people" alt="" width="25">
+                </div>
+                <div class="grid-container ">
+
+                    <div class="grid-item explore_items egi_1"> <video src="/reels/1 (1).mp4" muted loop></video></div>
+                    <div class="grid-item explore_items egi_2"><video src="/reels/1 (2).mp4" muted loop></video></div>
+                    <div class="grid-item explore_items egi_3"><video src="/reels/1 (3).mp4" muted loop></video></div>
+                    <div class="grid-item explore_items egi_4"><video src="/reels/1 (4).mp4" muted loop></video></div>
+                    <div class="grid-item explore_items egi_5"><video src="/reels/1 (5).mp4" muted loop></video></div>
+                    <div class="grid-item explore_items egi_6"><video src="/reels/1 (6).mp4" muted loop></video></div>
+                    <div class="grid-item explore_items egi_7"><video src="/reels/1 (7).mp4" muted loop></video></div>
+                    <div class="grid-item explore_items egi_8"><video src="/reels/1 (8).mp4" muted loop></video></div>
+                    <div class="grid-item explore_items egi_9"><video src="/reels/1 (9).mp4" muted loop></video></div>
+                    <div class="grid-item explore_items egi_1"><video src="/reels/1 (10).mp4" muted loop></video></div>
+                    <div class="grid-item explore_items egi_2"><video src="/reels/1 (11).mp4" muted loop></video></div>
+                    <div class="grid-item explore_items egi_2"><video src="/reels/1 (12).mp4" muted loop></video></div>
+                    <div class="grid-item explore_items egi_4"><video src="/reels/1 (13).mp4" muted loop></video></div>
+                    <div class="grid-item explore_items egi_5"><video src="/reels/1 (14).mp4" muted loop></video></div>
+                    <div class="grid-item explore_items egi_6"><video src="/reels/1 (15).mp4" muted loop></video></div>
+                    <div class="grid-item explore_items egi_7"><video src="/reels/1 (16).mp4" muted loop></video></div>
+                    <div class="grid-item explore_items egi_8"><video src="/reels/1 (17).mp4" muted loop></video></div>
+                    <div class="grid-item explore_items egi_9"><video src="/reels/1 (18).mp4" muted loop></video></div>
+                    <div class="grid-item explore_items egi_1"><video src="/reels/1 (19).mp4" muted loop></video></div>
+                    <div class="grid-item explore_items egi_2"><video src="/reels/1 (20).mp4" muted loop></video></div>
+
+                </div>
+
+            </section>
+        </section>
+    </section>
+
+    <nav class="nav_bar">
+        <img src="/icons/next-svgrepo-com.svg" class="arrow invisible_icons " width="25" alt="">
+        <a href="Home.html" class="invisible_icons"> <img src="/icons/instagram-svgrepo-com.svg" alt="" width="30"><span
+                class="nav_text">Instagram</span></a>
+        <a href="Home.html"><img src="/icons/home-svgrepo-com (1).svg" alt="" width="25"><span
+                class="nav_text">Home</span></a>
+        <a href="explore.html"> <img src="/icons/search-svgrepo-com.svg" alt="" width="35"><span
+                class="nav_text">Search</span></a>
+        <div> <img src="/icons/add-square-svgrepo-com.svg" alt="" width="25"><span class="nav_text">add Post</span>
+        </div>
+        <div><img src="/icons/film-play-svgrepo-com.svg" alt="" width="35"><span class="nav_text">Reels</span></div>
+        <a href="#" class="nav_heart_send invisible_icons"> <img src="/icons/heart.svg" alt="" width="30"><span
+                class="nav_text">notification</span>
+        </a> <a href="messages.html" class="nav_heart_send invisible_icons"> <img src="/icons/send.svg" alt=""
+                width="30"><span class="nav_text">Messages</span>
+        </a>
+        <a href="Profile.html"> <img src="/pp/pp (1).jpg" class="nav_profile_img profile_page_nav_profile" alt=""
+                width="25"></a>
+    </nav>
+    <script src="script3.js"></script>
+</body>
+
+</html>
